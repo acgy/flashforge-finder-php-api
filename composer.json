@@ -1,0 +1,19 @@
+{
+    "name": "acgy/flashforge-finder-php-api",
+    "description": "Flashforge Finder unofficial API",
+    "keywords": [
+        "flashforge", "finder", "api"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/acgy/flashforge-finder-php-api",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "acgy\\Printer\\": "src/"
+        }
+    },
+}
