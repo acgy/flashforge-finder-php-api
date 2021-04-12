@@ -6,7 +6,6 @@ Use this API at your own risk. It only performs reading operations but it is uno
 
 ## Installation
 
-Coming soon:
 This package is installed via [Composer](https://getcomposer.org/).
 
 Run the following to require the package
