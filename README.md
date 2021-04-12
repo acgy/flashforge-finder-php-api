@@ -19,7 +19,7 @@ Instanciate the printer with IP address and port (port is optionnal, specify it 
 Example output:
 
 ```php
-$printer = new \acgy\Printer('192.168.0.5');
+$printer = new \Acgy\FlashforgeApi\Printer("192.168.0.5");
 print_r($printer->get('progress'));
 /*
 Array
