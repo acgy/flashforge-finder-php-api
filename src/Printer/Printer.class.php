@@ -53,7 +53,6 @@ class Printer {
             echo "Connection failed\n";
             return false;
         }
-        //stream_set_timeout ($socket, 5);
         // send the request to the printer
         $message = $message_data;
         socket_send($socket, $message, strlen($message), 0);
@@ -70,6 +69,7 @@ class Printer {
      * Requests an information to the printer
      *
      * @param string $request_message The information to get
+     * @param boolean $verbose True for verbose mode
      * @return string Information
      **/
     public function get($request_message, $verbose = false)

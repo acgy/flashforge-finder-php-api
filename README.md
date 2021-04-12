@@ -1,14 +1,15 @@
 # Flashforge Finder php API
-This is an unofficial php API for the Flashforge Finder inspired from https://github.com/01F0/flashforge-finder-api/. It allows to request status information from the printer like temperature, progress, etc. It may also work for other Flashforge printer models but has onls been tested on the Finder.
+This is an unofficial php API for the Flashforge Finder inspired from https://github.com/01F0/flashforge-finder-api/. It allows to request status information from the printer like temperature, progress, etc. It may also work for other Flashforge printer models but has only been tested on the Finder.
 
 ## Warning
 Use this API at your own risk. It only performs reading operations but it is unofficial and may of course have bugs.
 
 ## Installation
 
+Coming soon:
 This package is installed via [Composer](https://getcomposer.org/).
 
-Run the following to require the package via Composer
+Run the following to require the package
 ```sh
     composer require acgy/flashforge-finder-php-api
 ```
