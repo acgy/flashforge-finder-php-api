@@ -1,8 +1,8 @@
 <?php
 
-namespace Acgy\FlashforgePrinter;
+namespace Acgy\FlashforgeApi;
 
-class FlashforgePrinter {
+class Printer {
     private $ip_address;
     private $port;
     private $request_messages = [

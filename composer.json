@@ -1,5 +1,5 @@
 {
-    "name": "acgy/flashforge-printer",
+    "name": "acgy/flashforge-api",
     "description": "Flashforge Finder unofficial API",
     "keywords": [
         "flashforge", "finder", "api"
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Acgy\\FlashforgePrinter\\": "src/"
+            "Acgy\\FlashforgeApi\\": "src/"
         }
     }
 }
