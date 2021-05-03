@@ -15,7 +15,7 @@ class Printer {
         'status' => '~M119\r\n',
         'lightOn' => '~M146 r255 g255 b255\r\n',
         'lightOff' => '~M146 r0 g0 b0\r\n',
-        'stop' => '~M26\r\n'
+        'stopPrint' => '~M26\r\n'
     ];
     private $request_regexs = [
         'control' => '#(Control Success)#',
