@@ -8,15 +8,20 @@ class Printer {
     private $request_messages = [
         'control' => '~M601 S1\r\n',
         'info' => '~M115\r\n',
+        'cal' => '~M650\r\n',
         'position' => '~M114\r\n',
         'temperature' => '~M105\r\n',
         'progress' => '~M27\r\n',
-        'status' => '~M119\r\n'
+        'status' => '~M119\r\n',
+        'lightOn' => '~M146 r255 g255 b255\r\n',
+        'lightOff' => '~M146 r0 g0 b0\r\n',
+        'stop' => '~M26\r\n'
     ];
     private $request_regexs = [
         'control' => '#(Control Success)#',
         'info' => '',
         'position' => '#X:(-?[0-9\.]+) Y:(-?[0-9\.]+) Z:(-?[0-9\.]+) A:(-?[0-9\.]+)#',
+        'cal' => '#X: (-?[0-9\.]+) Y: (-?[0-9\.]+)#',
         'temperature' => '#T0:([0-9]+) /([0-9]+)#',
         'progress' => '#printing byte ([0-9]+)/([0-9]+)#',
         'status' => '#MachineStatus: (.+)#'
